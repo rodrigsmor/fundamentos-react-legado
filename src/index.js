@@ -9,6 +9,7 @@ import Membro from './components/Membro'
 import ComponenteComFuncao from './components/ComponenteComFuncao';
 import Pai from './components/Pai'
 import ComponenteClasse from './components/ComponenteClasse';
+import Contador from './components/Contador'
 
 ReactDOM.render(
     <div>
@@ -25,6 +26,7 @@ ReactDOM.render(
         <ComponenteComFuncao />
         <Pai />
         <ComponenteClasse valor={'Sou um componente de classe!'} />
+        <Contador numeroInicial={10}/>
     </div>,
     document.getElementById('root')
 );
