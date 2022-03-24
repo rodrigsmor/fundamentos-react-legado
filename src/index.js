@@ -10,9 +10,11 @@ import ComponenteComFuncao from './components/ComponenteComFuncao';
 import Pai from './components/Pai'
 import ComponenteClasse from './components/ComponenteClasse';
 import Contador from './components/Contador'
+import Hook from './components/Hook';
 
 ReactDOM.render(
     <div>
+        <Hook />
         <MultiElementos />
         <CompA valor={'Olá, eu sou A!'} />
         <CompB valor={'B NA ÁREA!'} />
