@@ -1,4 +1,5 @@
 import React from "react";
+import { filhosComProps } from "../utils/utils";
 
 export default props => 
     <div style={{
@@ -9,5 +10,5 @@ export default props =>
         padding: '20px'
     }}>
         <h1>Família</h1>
-        { props.children }
+        { filhosComProps(props) }
     </div>

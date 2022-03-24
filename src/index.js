@@ -14,10 +14,10 @@ ReactDOM.render(
         <CompB valor={'B NA ÁREA!'} />
         <PrimeiroComponente valor={'Bom dia!'} />
         <FamiliaSilva sobrenome='Silva'/>
-        <Familia>
-            <Membro nome='Rodrigo ' sobrenome='Pereira' />
-            <Membro nome='Mariana ' sobrenome='Pereira' />
-            <Membro nome='Carlos ' sobrenome='Pereira' />
+        <Familia sobrenome='Pereira'>
+            <Membro nome='Rodrigo ' />
+            <Membro nome='Mariana ' />
+            <Membro nome='Carlos ' />
         </Familia>
     </div>,
     document.getElementById('root')
