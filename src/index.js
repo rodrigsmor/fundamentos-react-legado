@@ -8,6 +8,7 @@ import Familia from './components/Familia';
 import Membro from './components/Membro'
 import ComponenteComFuncao from './components/ComponenteComFuncao';
 import Pai from './components/Pai'
+import ComponenteClasse from './components/ComponenteClasse';
 
 ReactDOM.render(
     <div>
@@ -23,6 +24,7 @@ ReactDOM.render(
         </Familia>
         <ComponenteComFuncao />
         <Pai />
+        <ComponenteClasse valor={'Sou um componente de classe!'} />
     </div>,
     document.getElementById('root')
 );
