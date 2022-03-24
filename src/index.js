@@ -7,6 +7,7 @@ import FamiliaSilva from './components/FamiliaSilva';
 import Familia from './components/Familia';
 import Membro from './components/Membro'
 import ComponenteComFuncao from './components/ComponenteComFuncao';
+import Pai from './components/Pai'
 
 ReactDOM.render(
     <div>
@@ -21,6 +22,7 @@ ReactDOM.render(
             <Membro nome='Carlos ' />
         </Familia>
         <ComponenteComFuncao />
+        <Pai />
     </div>,
     document.getElementById('root')
 );
