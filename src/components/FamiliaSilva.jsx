@@ -4,10 +4,10 @@ import Membro from './Membro';
 const FamiliaSilva = (props) => {
     return (
         <div>
-            <Membro nome='Rafaela ' sobrenome='Silva' />
-            <Membro nome='Daniela ' sobrenome='Silva' />
-            <Membro nome='Pedro ' sobrenome='Silva' />
-            <Membro nome='Ana ' sobrenome='Silva' />
+            <Membro nome='Rafaela ' sobrenome={props.sobrenome} />
+            <Membro nome='Daniela ' sobrenome={props.sobrenome} />
+            <Membro nome='Pedro ' sobrenome={props.sobrenome} />
+            <Membro nome='Ana ' sobrenome={props.sobrenome} />
         </div>
     );
 }
