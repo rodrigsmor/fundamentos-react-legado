@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default () => {
+const PrimeiroComponente = (props) => {
     return (
         <div>
-            <h1>Primeiro Componente</h1>
+            <h1>{ props.valor }</h1>
         </div>
     );
 }
+
+export default PrimeiroComponente;
