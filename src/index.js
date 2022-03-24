@@ -6,6 +6,7 @@ import PrimeiroComponente from './components/PrimeiroComponente';
 import FamiliaSilva from './components/FamiliaSilva';
 import Familia from './components/Familia';
 import Membro from './components/Membro'
+import ComponenteComFuncao from './components/ComponenteComFuncao';
 
 ReactDOM.render(
     <div>
@@ -19,6 +20,7 @@ ReactDOM.render(
             <Membro nome='Mariana ' />
             <Membro nome='Carlos ' />
         </Familia>
+        <ComponenteComFuncao />
     </div>,
     document.getElementById('root')
 );
